@@ -1,0 +1,64 @@
+/* <div className='footer'>
+        <div className="footer-logo">
+            <img src={footer_logo} alt="" />
+            <p>Shooper</p>
+        </div>
+        <ul className='footer-links'>
+            <li>Company</li>
+            <li>Products</li>
+            <li>Offices</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <div className="footer-social-icons">
+            <div className="footer-icons-container">
+                <img src= {instagram_icon} alt="" />
+            </div>
+            <div className="footer-icons-container">
+                <img src= {pinterest_icon} alt="" />
+            </div>
+            <div className="footer-icons-container">
+                <img src= {whatsapp_icon} alt="" />
+            </div>
+        </div>
+        <div className="footer-copyright">
+            <hr />
+            <p > Copyright @ 2023n- All Right Reserved</p>
+        </div>
+    </div>  */
+    .footer-logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer-logo p{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .footer-links{
+        margin: 20px;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        list-style: none;
+    }
+    .footer-social-icons{
+        display: flex;
+        margin: 20px;
+        gap: 30px;
+        justify-content: center;
+    }
+    .footer-copyright{
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-copyright hr{
+        width: 80%;
+        margin: auto;
+        background-color: black;
+    }
